@@ -1,4 +1,4 @@
-/__pycache__
-/.benchmarks
-/.ipynb_checkpoints
-/.pytest_cache
+__pycache__/
+.benchmarks/
+.ipynb_checkpoints/
+.pytest_cache/
