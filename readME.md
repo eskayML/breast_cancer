@@ -4,7 +4,7 @@ The breast cancer detection app is a machine learning application that utilizes 
 
 
 ## Data Collection 
-The UCI Machine Learning Breast Cancer dataset is a widely used benchmark dataset for binary classification tasks. It contains information about breast cancer tumors, including attributes such as size, shape, and texture. There are a total of 569 instances in the dataset, with 212 malignant and 357 benign cases
+The UCI Machine Learning Breast Cancer dataset is a widely used benchmark dataset for binary classification tasks. It contains information about breast cancer tumors, including attributes such as size, shape, and texture. There are a total of 569 instances in the dataset, with 212 malignant (M) and 357 benign (B) cases
 
 [DOWNLOAD ON KAGGLE](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
 
