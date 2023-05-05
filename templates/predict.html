@@ -14,14 +14,13 @@
       <div class="col-lg-6">
         <h2 class="text-center mb-4">Breast Cancer Predictor</h2>
 
-        <div class="container mt-3 mb-4">
+        <div class="container mt-3 mb-4 ">
             {% if output_text %}
             <div class="alert alert-info">
                 {{output_text}}
             </div>
             {% endif %}
         </div>
-c
         <form method="POST">
           {% for column in COLUMNS %}
 
