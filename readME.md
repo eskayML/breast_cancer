@@ -48,10 +48,9 @@ The model was trained on 80% of the dataset, and was evaluated on the remaining 
 ## Evaluation 
 The classification report shows the precision and recall scores on each of the labels and also  the f1-scores.
 
-![classification report](images\report.jpg)
+![Classification Report](images\report.jpg)
+
 
 The confusion matrix shows the distribution of predictions and how well they got predicted. On the test set , we have no false positives and very little false negatives
 
 ![Confusion Matrix](images/confusion_matrix.png)
-
-
