@@ -19,6 +19,7 @@ COLUMNS = [
     "concave points_worst",
 ]
 
+
 with open(MODEL_PATH, "rb") as f:
     model = pickle.load(f)
 
