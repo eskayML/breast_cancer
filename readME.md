@@ -23,6 +23,6 @@ The UCI Machine Learning Breast Cancer dataset is a widely used benchmark datase
 ## Training / Testing
 The model was trained on 80% of the dataset, and was evaluated on the remaining 20% of the data.
 
-![classification report](images/report.png)
+![classification report](./images/report.png)
 
 
