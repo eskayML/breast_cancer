@@ -9,7 +9,7 @@ The UCI Machine Learning Breast Cancer dataset is a widely used benchmark datase
 [DOWNLOAD ON KAGGLE](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
 
 ## Features
-
+Here contains all the features that were used in training the model
 
 #### radius_mean 
 The mean distance from the center to points on the perimeter of the tumor.
@@ -45,6 +45,13 @@ The largest number of concave portions of the contour of the tumor.
 ## Training / Testing
 The model was trained on 80% of the dataset, and was evaluated on the remaining 20% of the data.
 
-![classification report](./images/report.png)
+## Evaluation 
+The classification report shows the precision and recall scores on each of the labels and also  the f1-scores.
+
+![classification report](images\report.jpg)
+
+The confusion matrix shows the distribution of predictions and how well they got predicted. On the test set , we have no false positives and very little false negatives
+
+![Confusion Matrix](images/confusion_matrix.png)
 
 
