@@ -10,16 +10,37 @@ The UCI Machine Learning Breast Cancer dataset is a widely used benchmark datase
 
 ## Features
 
-* radius_mean: the mean distance from the center to points on the perimeter of the tumor
-* perimeter_mean: the perimeter (total length of the boundary) of the tumor
-* area_mean: the area enclosed by the perimeter of the tumor
-* concavity_mean: a measure of the severity of concave portions of the contour of the tumor
-* concave points_mean: the number of concave portions of the contour of the tumor
-* radius_worst: the largest distance from the center to points on the perimeter of the tumor
-* perimeter_worst: the largest perimeter (total length of the boundary) of the tumor
-* area_worst: the largest area enclosed by the perimeter of the tumor
-* concavity_worst: the largest measure of the severity of concave portions of the contour of the tumor
-* concave points_worst: the largest number of concave portions of the contour of the tumor.
+
+### radius_mean 
+The mean distance from the center to points on the perimeter of the tumor.
+
+### perimeter_mean 
+The perimeter (total length of the boundary) of the tumor.
+
+### area_mean 
+The area enclosed by the perimeter of the tumor.
+
+### concavity_mean 
+A measure of the severity of concave portions of the contour of the tumor.
+
+### concave points_mean 
+The number of concave portions of the contour of the tumor.
+
+### radius_worst 
+The largest distance from the center to points on the perimeter of the tumor.
+
+### perimeter_worst 
+The largest perimeter (total length of the boundary) of the tumor.
+
+### area_worst 
+The largest area enclosed by the perimeter of the tumor.
+
+### concavity_worst 
+The largest measure of the severity of concave portions of the contour of the tumor.
+
+### concave points_worst 
+The largest number of concave portions of the contour of the tumor.
+
 
 ## Training / Testing
 The model was trained on 80% of the dataset, and was evaluated on the remaining 20% of the data.
