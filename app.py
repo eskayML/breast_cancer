@@ -33,19 +33,23 @@ def home():
 def predict():
     if request.method == "POST":
         values = [request.form.get(i) for i in COLUMNS]
-        prediction = model.predict([values])
+        prediction = model.predict_proba([values])[0]
 
-        if prediction[0] == "M":
-            output_text = "The model predicted the output to be 'MALIGNANT'"
+        if prediction[1] > 0.5000:
+            output_text = (
+                f"The model predicted the output to be 'MALIGNANT' ({round(prediction[1] * 100, 2)}%) "
+            )
         else:
-            output_text = "The model predicted the output to be 'BENIGN'"
+            output_text = (
+                f"The model predicted the output to be 'BENIGN' ({round(prediction[0] * 100, 2)}%)"
+            )
 
-        return render_template("predict.html", COLUMNS=COLUMNS, output_text=output_text)
+        return render_template(
+            "predict.html", COLUMNS=COLUMNS, output_text=output_text
+        )
 
     return render_template("predict.html", COLUMNS=COLUMNS)
 
 
 if __name__ == "__main__":
     app.run(debug=True)
-
-
