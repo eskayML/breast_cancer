@@ -59,3 +59,15 @@ The classification report shows the precision and recall scores on each of the l
 The confusion matrix shows the distribution of predictions and how well they got predicted. On the test set , we have no false positives and very little false negatives
 
 ![Confusion Matrix](images/confusion_matrix.png)
+
+## Testing the Application
+You can test the flask application using pytest by running 
+```console
+pytest
+```
+in the root directory of the project
+
+## Dependencies
+* Python >= 3.7
+* Flask >= 2.2.1
+* Scikit-learn >= 1.2.1
