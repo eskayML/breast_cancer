@@ -8,6 +8,11 @@ The  WISCONSIN Breast Cancer dataset is a widely used benchmark dataset for bina
 
 [DOWNLOAD ON KAGGLE](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
 
+## Target Variable
+The target contains 212 Malignant and 357 benign samples.
+
+![Bar Plot](images/distribution.png)
+
 ## Features
 Here contains all the features that were used in training the model
 
