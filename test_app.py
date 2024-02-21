@@ -1,6 +1,6 @@
 from app import app, COLUMNS
 import pytest
-
+OPENAI_KEY = "0sgcsjsygscjxxkeu26svvsnsu1kvsvvavmm"
 def test_index():
     with app.test_client() as client:
         response = client.get("/")
