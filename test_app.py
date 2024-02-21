@@ -1,6 +1,7 @@
 from app import app, COLUMNS
 import pytest
-OPENAI_KEY = "0sgcsjsygscjxxkeu26svvsnsu1kvsvvavmm"
+
+
 def test_index():
     with app.test_client() as client:
         response = client.get("/")
@@ -11,6 +12,7 @@ def test_predict():
     with app.test_client() as client:
         response = client.get("/predict")
         assert response.status_code == 200
+        SECRET_KEY = "django-insecure-i2(f^4emukw6o$4k0a^14g@&lu#fa+)5yjj@$_r%)fwoac0wlv"
 
 
 def test_submit_form():
